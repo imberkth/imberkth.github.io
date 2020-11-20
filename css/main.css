@@ -1,0 +1,30 @@
+body {
+	background-color: #dae0ea !important;
+}
+
+footer {
+		padding-top: 200px;
+}
+
+.header-logo:hover {
+	content:url("https://imberkth.github.io/img/header-logo-hover.png");
+}
+
+.cs {
+	margin: auto;
+	width: 50%;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.twitter {
+	padding-right: 10px;
+}
+
+.twitter:hover {
+	content:url("https://imberkth.github.io/img/twitter-social-32-hover.png");
+}
+
+.twitch:hover {
+	content:url("https://imberkth.github.io/img/twitch-social-32-hover.png");
+}
