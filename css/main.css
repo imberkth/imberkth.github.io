@@ -6,12 +6,8 @@ footer {
 	padding-top: 200px;
 }
 
-.header-logo {
-	background-image: url("https://imberkth.github.io/img/header-logo.png");
-}
-
 .header-logo:hover {
-	background-image: url("https://imberkth.github.io/img/header-logo-hover.png");
+	content: url("https://imberkth.github.io/img/header-logo-hover.png");
 }
 
 .cs {
@@ -23,17 +19,13 @@ footer {
 
 .twitter {
 	padding-right: 10px;
-	background-image: url("https://imberkth.github.io/img/twitter-social-32.png");
+	content: url("https://imberkth.github.io/img/twitter-social-32.png");
 }
 
 .twitter:hover {
-	background-image: url("https://imberkth.github.io/img/twitter-social-32-hover.png");
-}
-
-.twitch {
-	background-image: url("https://imberkth.github.io/img/twitch-social-32.png");
+	content: url("https://imberkth.github.io/img/twitter-social-32-hover.png");
 }
 
 .twitch:hover {
-	background-image: url("https://imberkth.github.io/img/twitch-social-32-hover.png");
+	content: url("https://imberkth.github.io/img/twitch-social-32-hover.png");
 }
