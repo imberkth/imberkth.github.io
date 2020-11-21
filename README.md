@@ -1,2 +1,2 @@
 # ImBerkth Website
-[imberkth.github.io](https://imberkth.github.io)
+<a href="https://imberkth.github.io" target="_blank">imberkth.github.io</a>
