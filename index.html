@@ -11,7 +11,7 @@
 	</head>
 	<body id="body" class="body">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-			<a class="navbar-brand" href=""><img class="header-logo" src="img/header-logo.png"></a>
+			<button class="navbar-brand header-logo" onclick="location.href='https://imberkth.github.io'" data-toggle="tooltip" data-placement="bottom" title="Home"></button>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -21,10 +21,10 @@
 						<a class="nav-link" href="#">Home</a> -->
 				</ul>
 				<span class="navbar-link">
-					<a href="https://twitter.com/imberkth" data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank"><img class="twitter" src="img/twitter-social-32.png"></a>
-					<a href="https://twitch.tv/imberkth" data-toggle="tooltip" data-placement="bottom" title="Twitch"  target="_blank"><img class="twitch" src="img/twitch-social-32.png"></a>
-					<a href="https://github.com/imberkth" data-toggle="tooltip" data-placement="bottom" title="Github"  target="_blank"><img class="github" src="img/github-social-32.png"></a>
-					<a id="toggle" onclick="toggleMode()" data-toggle="tooltip" data-placement="bottom" title="Dark Mode"><img id="toggle-img" class="darkmode" src="img/darkmode-icon-32.png"></a>
+					<button class="twitter" onclick="window.open('https://twitter.com/imberkth')" data-toggle="tooltip" data-placement="bottom" title="Twitter"></button>
+					<button class="twitch" onclick="window.open('https://twitch.tv/imberkth')" data-toggle="tooltip" data-placement="bottom" title="Twitch"></button>
+					<button id="toggle" class="darkmode" onclick="darkMode()" data-toggle="tooltip" data-placement="bottom" title="Dark Mode"></button>
+					<button class="github" onclick="window.open('https://github.com/imberkth')" data-toggle="tooltip" data-placement="bottom" title="Github"></button>
 				</span>
 			</div>
 		</nav>

@@ -3,15 +3,24 @@
 }
 
 footer {
-	padding-top: 200px;
+	margin-top: 200px;
 }
 
 .header-logo {
-	content: url("https://imberkth.github.io/img/header-logo.png");
+	height: 32px;
+	width: 124px;
+	text-align: center;
+	font-size: 10px;
+	cursor: pointer !important;
+	outline: none !important;
+	border: none !important;
+	background-image: url("https://imberkth.github.io/img/header-logo.png");
+	background-color: rgba(255,255,255,0.0) !important;
+	background-repeat: no-repeat;
 }
 
-.header-logo:hover {
-	content: url("https://imberkth.github.io/img/header-logo-hover.png");
+.header-logo:active {
+	background-image: url("https://imberkth.github.io/img/header-logo-hover.png");
 }
 
 .cs {
@@ -22,56 +31,94 @@ footer {
 }
 
 .twitter {
-	padding-right: 10px;
-	content: url("https://imberkth.github.io/img/twitter-social-32.png");
+	margin-right: 10px;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	font-size: 10px;
+	cursor: pointer !important;
+	outline: none !important;
+	border: none !important;
+	background-image: url("https://imberkth.github.io/img/twitter-social-32.png");
+	background-color: rgba(255,255,255,0.0) !important;
+	background-repeat: no-repeat;
 }
 
-.twitter:hover {
-	content: url("https://imberkth.github.io/img/twitter-social-32-hover.png");
+.twitter:active {
+	background-image: url("https://imberkth.github.io/img/twitter-social-32-hover.png");
 }
 
 .twitch {
-	padding-right: 10px;
-	content: url("https://imberkth.github.io/img/twitch-social-32.png");
+	margin-right: 10px;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	font-size: 10px;
+	cursor: pointer !important;
+	outline: none !important;
+	border: none !important;
+	background-image: url("https://imberkth.github.io/img/twitch-social-32.png");
+	background-color: rgba(255,255,255,0.0) !important;
+	background-repeat: no-repeat;
 }
 
-.twitch:hover {
-	content: url("https://imberkth.github.io/img/twitch-social-32-hover.png");
-}
-
-.github {
-	padding-right: 30px;
-	content: url("https://imberkth.github.io/img/github-social-32.png");
-}
-
-.github:hover {
-	content: url("https://imberkth.github.io/img/github-social-32-hover.png");
+.twitch:active {
+	background-image: url("https://imberkth.github.io/img/twitch-social-32-hover.png");
 }
 
 .darkmode {
-	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/darkmode-icon-32.png");
+	margin-right: 10px;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	font-size: 10px;
+	cursor: pointer !important;
+	outline: none !important;
+	border: none !important;
+	background-image: url("https://imberkth.github.io/img/darkmode-icon-32.png");
+	background-color: rgba(255,255,255,0.0) !important;
+	background-repeat: no-repeat;
 }
 
-.darkmode:hover {
-	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/darkmode-icon-32-hover.png");
+.darkmode:active {
+	background-image: url("https://imberkth.github.io/img/darkmode-icon-32-hover.png");
 }
 
 .lightmode {
-	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/lightmode-icon-32.png");
+	margin-right: 10px;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	font-size: 10px;
+	cursor: pointer !important;
+	outline: none !important;
+	border: none !important;
+	background-image: url("https://imberkth.github.io/img/lightmode-icon-32.png");
+	background-color: rgba(255,255,255,0.0) !important;
+	background-repeat: no-repeat;
 }
 
-.lightmode:hover {
-	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/lightmode-icon-32-hover.png");
+.lightmode:active {
+	background-image: url("https://imberkth.github.io/img/lightmode-icon-32-hover.png");
+}
+
+.github {
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	font-size: 10px;
+	cursor: pointer !important;
+	outline: none !important;
+	border: none !important;
+	background-image: url("https://imberkth.github.io/img/github-social-32.png");
+	background-color: rgba(255,255,255,0.0) !important;
+	background-repeat: no-repeat;
+}
+
+.github:active {
+	background-image: url("https://imberkth.github.io/img/github-social-32-hover.png");
 }
 
 .body-dark {
 	background-color: #1b1b1b !important;
-}
-
-.csimg-dark {
-	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/coming-soon-dark.png");
-}
-
-.copyimg-dark {
-	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/copyright-small-dark.png");
 }
