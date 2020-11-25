@@ -1,5 +1,5 @@
-body {
-	background-color: #dae0ea !important;
+.body {
+	background-color: #d8dde6 !important;
 }
 
 footer {
@@ -40,9 +40,38 @@ footer {
 }
 
 .github {
+	padding-right: 30px;
 	content: url("https://imberkth.github.io/img/github-social-32.png");
 }
 
 .github:hover {
 	content: url("https://imberkth.github.io/img/github-social-32-hover.png");
+}
+
+.darkmode {
+	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/darkmode-icon-32.png");
+}
+
+.darkmode:hover {
+	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/darkmode-icon-32-hover.png");
+}
+
+.lightmode {
+	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/lightmode-icon-32.png");
+}
+
+.lightmode:hover {
+	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/lightmode-icon-32-hover.png");
+}
+
+.body-dark {
+	background-color: #1b1b1b !important;
+}
+
+.csimg-dark {
+	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/coming-soon-dark.png");
+}
+
+.copyimg-dark {
+	content: url("file:///C:/Users/Unichek/Documents/GitHub/imberkth.github.io/img/copyright-small-dark.png");
 }
